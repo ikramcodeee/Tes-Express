@@ -1,0 +1,40 @@
+body {
+  padding: 50px;
+  font: 14px/1.6 "Lucida Grande", Helvetica, Arial, sans-serif;
+  background: #f4f4f4;
+  background: linear-gradient(to bottom, #f4f4f4, #e9e9e9);
+}
+
+a {
+  color: #00b7ff;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: #007bff;
+  text-decoration: underline;
+  transition: color 0.2s ease;
+}
+
+h1,
+h2,
+h3 {
+  color: #333;
+  margin-bottom: 15px;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #ccc;
+  font-family: "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 18px;
+}
